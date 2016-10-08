@@ -20,5 +20,5 @@ PRODUCT_RESTRICT_VENDOR_FILES := false
 # Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=angler \
-    BUILD_FINGERPRINT=google/angler/angler:7.0/NRD90U/3155372:user/release-keys \
-    PRIVATE_BUILD_DESC="angler-user 7.0 NRD90U 3155372 release-keys"
+    BUILD_FINGERPRINT=google/angler/angler:7.0/NBD90X/3254009:user/release-keys \
+    PRIVATE_BUILD_DESC="angler-user 7.0 NBD90X 3254009 release-keys"
