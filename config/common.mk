@@ -23,11 +23,6 @@ PRODUCT_COPY_FILES +=  \
     vendor/androidx/prebuilt/common/media/LMprec_508.emd:system/media/LMprec_508.emd \
     vendor/androidx/prebuilt/common/media/PFFprec_600.emd:system/media/PFFprec_600.emd
 
-# Superuser
-PRODUCT_COPY_FILES +=  \
-    vendor/androidx/prebuilt/common/su:root/sbin/su \
-    vendor/androidx/prebuilt/common/app/Superuser.apk:system/app/Superuser/Superuser.apk
-
 # Latin IME lib
 PRODUCT_COPY_FILES += \
     vendor/androidx/prebuilt/common/lib/libjni_latinime.so:system/lib/libjni_latinime.so
