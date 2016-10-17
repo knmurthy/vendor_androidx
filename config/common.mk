@@ -24,6 +24,10 @@ PRODUCT_COPY_FILES +=  \
     vendor/androidx/prebuilt/common/media/LMprec_508.emd:system/media/LMprec_508.emd \
     vendor/androidx/prebuilt/common/media/PFFprec_600.emd:system/media/PFFprec_600.emd
 
+# Arise fix
+PRODUCT_COPY_FILES +=  \
+    vendor/androidx/prebuilt/common/audio/audio_policy_configuration.xml:system/etc
+
 # Latin IME lib
 PRODUCT_COPY_FILES += \
     vendor/androidx/prebuilt/common/lib/libjni_latinime.so:system/lib/libjni_latinime.so
