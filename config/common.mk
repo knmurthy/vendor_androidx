@@ -48,7 +48,7 @@ PRODUCT_PACKAGES += \
     audio_effects.conf \
     Basic \
     Camera \
-    Development \
+#Development \
     LatinIME \
     masquerade
 
